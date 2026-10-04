@@ -1,8 +1,8 @@
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 #   CiefpDishPointer v1.1
-#   Enigma2 Plugin (Python 2 & Python 3)
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Enigma2 Plugin (Python 2 & Python 3)
+
 
 ![Version](https://img.shields.io/badge/version-1.2-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.x-green.svg)
@@ -26,8 +26,11 @@
 ### Help Images
 ![help](https://i.postimg.cc/HkNpmTXR/ciefpdishpointer-5.jpg)
 
-### Language Settings
+### Location Settings
 ![settings](https://i.postimg.cc/v8vbBr5W/ciefpdishpointer-6.jpg)
+
+### Language Settings
+![settings](https://i.postimg.cc/3JD11B9n/ciefpdishpointer-7.jpg)
 
 
 # DESCRIPTION:
@@ -37,9 +40,9 @@ aligned, and to get all required angles (azimuth, elevation, LNB skew).
 
 Works like dishpointer.com, adapted for Enigma2.
 I haven't tested Python 2.
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 # MAIN FEATURES:
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 ▶ Automatic geolocation
    - IP-based location detection (ip-api.com)
@@ -89,9 +92,8 @@ I haven't tested Python 2.
    - Serbian
    - Switch via MENU → Settings → Language
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #  BUTTONS / REMOTE KEYS:
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
   - RED    (EXIT)              — closes plugin
   - GREEN  (SINGLE SAT)        — opens single satellite selection
@@ -102,18 +104,18 @@ I haven't tested Python 2.
   - LEFT/RIGHT                 — changes system type
   - EXIT                       — closes plugin
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 #  COMPATIBILITY:
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
   ✅ Python 2 (OpenPLi 7, OpenATV 6.4, Egami 8)
   ✅ Python 3 (OpenPLi 8+, OpenATV 7+, Egami 10+)
   ✅ FHD skin (1920x1080)
   ✅ OpenPLi, OpenATV, Egami, OpenBH, PurE2
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 # VERSION 1.1 — WHAT'S NEW:
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
   • Added Multi LNB setup with checkbox list
   • Added Single Satellite screen with calculated angles
@@ -125,13 +127,13 @@ I haven't tested Python 2.
   • Current service display (channel, provider, satellite)
   • Dish icon in center of screen
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 # AUTHOR:
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
  - Ciefp
  - Github: [https://github.com/ciefp]
  - Version: 1.1
  - Date: 04.10.2026.
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
