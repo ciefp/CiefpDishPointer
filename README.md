@@ -117,15 +117,15 @@ I haven't tested Python 2.
 # VERSION 1.1 — WHAT'S NEW:
 
 
-  -• Added Multi LNB setup with checkbox list
-  -• Added Single Satellite screen with calculated angles
-  -• Added Help Images screen with images and text
-  -• Added Location Edit for manual location change
-  -• Added Settings screen (language, refresh, location)
-  -• Added Serbian translation
-  -• Signal bar with gradient image (icon_snr.png, icon_agc.png)
-  -• Current service display (channel, provider, satellite)
-  -• Dish icon in center of screen
+  - Added Multi LNB setup with checkbox list
+  - Added Single Satellite screen with calculated angles
+  - Added Help Images screen with images and text
+  - Added Location Edit for manual location change
+  - Added Settings screen (language, refresh, location)
+  - Added Serbian translation
+  - Signal bar with gradient image (icon_snr.png, icon_agc.png)
+  - Current service display (channel, provider, satellite)
+  - Dish icon in center of screen
 
 
 # AUTHOR:
