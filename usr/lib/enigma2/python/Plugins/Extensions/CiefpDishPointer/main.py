@@ -474,16 +474,26 @@ class CiefpDishPointer(Screen):
     # ============================================================
     # GEOLOKACIJA
     # ============================================================
-
     def on_location_ready(self, result):
         if result.get("success"):
+            # Ako je korisnik rucno uneo lokaciju, ne prebrisuj
+            if config.plugins.CiefpDishPointer.location_manual.value:
+                print("[CiefpDishPointer] Rucna lokacija - preskacem auto")
+                return
+
             cfg = config.plugins.CiefpDishPointer
             cfg.continent.value = result.get("continent", "Unknown")
             cfg.country.value = result.get("country", "")
             cfg.city.value = result.get("city", "")
             cfg.latitude.value = "%.4f" % result.get("latitude", 0.0)
             cfg.longitude.value = "%.4f" % result.get("longitude", 0.0)
-            cfg.save()
+
+            # Sacuvaj pojedinacno
+            cfg.continent.save()
+            cfg.country.save()
+            cfg.city.save()
+            cfg.latitude.save()
+            cfg.longitude.save()
 
             self.refresh_location()
             self.refresh_dish()

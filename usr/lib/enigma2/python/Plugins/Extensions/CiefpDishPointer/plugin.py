@@ -14,7 +14,7 @@ def Plugins(**kwargs):
     return [
         PluginDescriptor(
             name="CiefpDishPointer",
-            description="Dish Pointer - Help with antenna adjustment v1.1",
+            description="Dish Pointer - Help with antenna adjustment v1.2",
             where=PluginDescriptor.WHERE_PLUGINMENU,
             icon="plugin.png",
             fnc=main

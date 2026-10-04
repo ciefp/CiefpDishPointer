@@ -69,7 +69,10 @@ config.plugins.CiefpDishPointer.selected_sat = ConfigInteger(
 config.plugins.CiefpDishPointer.auto_location = ConfigYesNo(
     default=True
 )
-
+# Da li je lokacija rucno uneta (sprecava auto-lokaciju da prebrise)
+config.plugins.CiefpDishPointer.location_manual = ConfigYesNo(
+    default=False
+)
 # Real-time osvežavanje signala (u sekundama)
 config.plugins.CiefpDishPointer.signal_refresh = ConfigInteger(
     default=1,

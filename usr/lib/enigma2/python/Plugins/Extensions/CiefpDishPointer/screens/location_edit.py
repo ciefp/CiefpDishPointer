@@ -249,9 +249,22 @@ class LocationEditScreen(Screen):
     def keySave(self):
         """GREEN - snima i zatvara."""
         cfg = config.plugins.CiefpDishPointer
+
+        # Postavi manual flag
+        cfg.location_manual.value = True
+
+        # Sacuvaj SVE vrednosti pojedinacno
         cfg.city.save()
+        cfg.country.save()
+        cfg.continent.save()
         cfg.latitude.save()
         cfg.longitude.save()
+        cfg.location_manual.save()
+
+        print("[CiefpDishPointer] Sacuvano: city=%s, lat=%s, lon=%s, manual=%s"
+              % (cfg.city.value, cfg.latitude.value, cfg.longitude.value,
+                 cfg.location_manual.value))
+
         self.close(True)
 
     def keyCancel(self):
