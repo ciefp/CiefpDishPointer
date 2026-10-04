@@ -108,10 +108,10 @@ I haven't tested Python 2.
 #  COMPATIBILITY:
 
 
-  -✅ Python 2 (OpenPLi 7, OpenATV 6.4, Egami 8)
-  -✅ Python 3 (OpenPLi 8+, OpenATV 7+, Egami 10+)
-  -✅ FHD skin (1920x1080)
-  -✅ OpenPLi, OpenATV, Egami, OpenBH, PurE2
+  - ✅ Python 2 (OpenPLi 7, OpenATV 6.4, Egami 8)
+  - ✅ Python 3 (OpenPLi 8+, OpenATV 7+, Egami 10+)
+  - ✅ FHD skin (1920x1080)
+  - ✅ OpenPLi, OpenATV, Egami, OpenBH, PurE2
 
 
 # VERSION 1.1 — WHAT'S NEW:
