@@ -7,6 +7,7 @@
 from Components.Language import language
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 import gettext
+__version__ = "1.2"
 
 PluginLanguageDomain = "CiefpDishPointer"
 PluginLanguagePath = "Extensions/CiefpDishPointer/locale"

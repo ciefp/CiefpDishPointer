@@ -5,6 +5,7 @@
 # Kompatibilno: Python 2 i Python 3
 
 from Plugins.Plugin import PluginDescriptor
+from . import __version__
 
 def main(session, **kwargs):
     from .main import CiefpDishPointer
@@ -14,7 +15,7 @@ def Plugins(**kwargs):
     return [
         PluginDescriptor(
             name="CiefpDishPointer",
-            description="Dish Pointer - Help with antenna adjustment v1.2",
+            description="Dish Pointer - antenna setup helper v%s" % __version__,
             where=PluginDescriptor.WHERE_PLUGINMENU,
             icon="plugin.png",
             fnc=main
